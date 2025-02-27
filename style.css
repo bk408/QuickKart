@@ -8,6 +8,8 @@ html , body{
     width: 100%;
 }
 
+/* Navbar */
+
 nav{
     background-color: #131921;
     color: #fff;
@@ -47,4 +49,90 @@ nav{
 .container button:hover{
     background-color: mediumvioletred;
     color: #fff;
+}
+
+/* Hero-section*/
+
+.hero-img{
+    position: relative;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 550px;
+    object-fit: fill;
+}
+
+.hero-img h4{
+    font-size: 32px;
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    color: #131921;
+}
+
+.hero-img span{
+    color: #c06464;
+    font-size: 40px;
+}
+
+/* Sale Products */
+
+.sale-products{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    
+}
+
+section h3{
+    text-align: center;
+    padding: 8px;
+    font-size: 35px;
+    color: crimson;
+
+
+}
+
+.sale-products img{
+    width: 350px;
+    height: auto;
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+/* footer*/
+
+footer{
+    background-color: #131921;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main h2{
+    color: mediumvioletred;
+}
+
+.main h4{
+  padding: 8px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.main h4:hover{
+    color: mediumvioletred;
+}
+
+
+
+
+
+.payment-methods img{
+    width: 200px;
+    height: auto;
+    mix-blend-mode: lighten;
 }
